@@ -1,9 +1,12 @@
-import { useState } from 'react'
+
+import { ChatContainer } from './components/ChatContainer';
 
 function App() {
   return (
-    <div></div>
-  )
+    <div className="h-screen bg-gray-50">
+      <ChatContainer />
+    </div>
+  );
 }
 
-export default App 
+export default App;
